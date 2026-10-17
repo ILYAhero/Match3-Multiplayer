@@ -8,7 +8,7 @@ namespace MonoOrbit.Presentation
 {
     /// <summary>Touch and pointer adapter; game rules live in Gameplay.</summary>
     public sealed class MatchCellView : MonoBehaviour,
-        IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
+        IPointerDownHandler, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
         private CellPosition _position;
         private Image _orb;
@@ -61,6 +61,13 @@ namespace MonoOrbit.Presentation
             aura.a = selected ? 0.72f : 0.42f;
             _aura.color = aura;
         }
+
+        internal void SetVisualScale(float scale)
+        {
+            _orb.rectTransform.localScale = Vector3.one * scale;
+        }
+
+        public void OnPointerDown(PointerEventData eventData) { _dragged = false; }
 
         public void OnPointerClick(PointerEventData eventData)
         {
