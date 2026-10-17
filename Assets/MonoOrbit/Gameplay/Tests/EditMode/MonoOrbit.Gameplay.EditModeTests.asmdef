@@ -2,7 +2,9 @@
   "name": "MonoOrbit.Gameplay.EditModeTests",
   "rootNamespace": "MonoOrbit.Gameplay.Tests",
   "references": [
-    "MonoOrbit.Gameplay"
+    "MonoOrbit.Gameplay",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
   ],
   "includePlatforms": [
     "Editor"
@@ -18,5 +20,5 @@
     "UNITY_INCLUDE_TESTS"
   ],
   "versionDefines": [],
-  "noEngineReferences": true
+  "noEngineReferences": false
 }
