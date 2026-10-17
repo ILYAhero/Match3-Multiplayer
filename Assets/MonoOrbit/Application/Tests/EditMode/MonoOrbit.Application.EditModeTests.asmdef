@@ -1,0 +1,25 @@
+{
+  "name": "MonoOrbit.Application.EditModeTests",
+  "rootNamespace": "MonoOrbit.Application.Tests",
+  "references": [
+    "MonoOrbit.Application",
+    "MonoOrbit.Gameplay",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

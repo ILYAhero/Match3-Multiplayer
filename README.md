@@ -20,6 +20,28 @@ Unity project for a competitive two-player match-3 game on one shared 9 × 9 boa
 
 The gameplay library does not depend on `UnityEngine`. It does **not** yet render a board or enable multiplayer. No gameplay scene, Relay connection, or mobile build is claimed ready.
 
+## Match screen (feature/match-screen)
+
+The training screen is a real Unity UI driven by the gameplay engine:
+- cached procedural weather-orb sprites, dark orbital shell, 9×9 board and responsive portrait layout;
+- touch swipe or tap-two-neighbors controls, match removal and cascade reveal;
+- score display, selectable tiles and board reset;
+- a separate `PracticeSession` application layer and three new edit-mode tests.
+
+**Training is intentionally local/offline.** Networking, co-op/duel modes, and persistent
+authored scene assets are separate milestones. Never present training as multiplayer.
+
+To create the Unity scene:
+1. Pull the `feature/match-screen` branch and wait for compilation.
+2. In Unity use **Tools → Mono Orbit → Create Match Scene**.
+3. Save/commit the generated `Assets/MonoOrbit/Scenes/MonoOrbitMatch.unity`
+   and its `.meta` via GitHub Desktop after checking the screen visually.
+4. Select **Game → 9:16** (or portrait aspect), press Play, drag adjacent orbs.
+5. Run **EditMode → Run All** again; the previous 8 tests passed on the core
+   branch but the new presentation/application slice still requires editor validation.
+
+See [match screen guide](Docs/MATCH_SCREEN.md).
+
 ## How to run tests
 
 1. Open the project with Unity Editor **6000.3.7f1**.
