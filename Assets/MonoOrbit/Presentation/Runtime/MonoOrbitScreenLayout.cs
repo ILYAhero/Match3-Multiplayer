@@ -175,6 +175,7 @@ namespace MonoOrbit.Presentation
             Anchor(buttonPanel.rectTransform, new Vector2(0.5f, 0f),
                 new Vector2(620f, 98f), new Vector2(0f, 150f));
             var button = buttonPanel.gameObject.AddComponent<Button>();
+            buttonPanel.raycastTarget = true;
             button.targetGraphic = buttonPanel;
             var palette = button.colors;
             palette.normalColor = Color.white;
@@ -219,7 +220,6 @@ namespace MonoOrbit.Presentation
             var innerSize = boardSize - 52f;
             var cellSize = (innerSize - 12f - 8f * _grid.spacing.x) / MatchRules.Width;
             _grid.cellSize = new Vector2(cellSize, cellSize);
-            _gridRect.sizeDelta = Vector2.zero;
         }
 
         private static void EnsureEventSystem()
