@@ -7,7 +7,7 @@ using UnityEngine.UI;
 namespace MonoOrbit.Presentation
 {
     /// <summary>Touch and pointer adapter; game rules live in Gameplay.</summary>
-    internal sealed class MatchCellView : MonoBehaviour,
+    public sealed class MatchCellView : MonoBehaviour,
         IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
         private CellPosition _position;
@@ -21,7 +21,7 @@ namespace MonoOrbit.Presentation
         public RectTransform Rect => (RectTransform)transform;
         public WeatherElement Element => _element;
 
-        public void Initialize(CellPosition position, Image orb, Image aura,
+        internal void Initialize(CellPosition position, Image orb, Image aura,
             Action<CellPosition> clicked, Action<CellPosition, CellPosition> swiped)
         {
             _position = position;
@@ -31,7 +31,7 @@ namespace MonoOrbit.Presentation
             _swiped = swiped;
         }
 
-        public void SetElement(WeatherElement element, MonoOrbitArt art)
+        internal void SetElement(WeatherElement element, MonoOrbitArt art)
         {
             _element = element;
             _orb.sprite = art.Orb(element);
