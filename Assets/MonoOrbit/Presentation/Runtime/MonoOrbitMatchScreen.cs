@@ -130,7 +130,19 @@ namespace MonoOrbit.Presentation
                 }
 
                 DrawBoard(step.AfterRefill);
-                yield return new WaitForSecondsRealtime(0.12f);
+                var refillElapsed = 0f;
+                const float refillDuration = 0.18f;
+                while (refillElapsed < refillDuration)
+                {
+                    refillElapsed += Time.unscaledDeltaTime;
+                    var t = Mathf.Clamp01(refillElapsed / refillDuration);
+                    var eased = 1f - (1f - t) * (1f - t) * (1f - t);
+                    var size = 0.74f + 0.26f * eased;
+                    for (var y = 0; y < MatchRules.Height; y++)
+                        for (var x = 0; x < MatchRules.Width; x++)
+                            _layout.Cells[x, y].SetVisualScale(size);
+                    yield return null;
+                }
             }
 
             DrawBoard(result.FinalBoard);
