@@ -12,6 +12,18 @@ namespace MonoOrbit.Presentation.Editor
         private const string ResourcesFolder = "Assets/MonoOrbit/Presentation/Resources";
         private const string AssetPath = ResourcesFolder + "/CozyWorldTheme.asset";
 
+        private static Sprite FindSprite(string name)
+        {
+            foreach (string guid in AssetDatabase.FindAssets(name + " t:Sprite", new[] { "Assets/CozyWorld/Art/Sprites" }))
+            {
+                string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+                if (string.Equals(System.IO.Path.GetFileNameWithoutExtension(assetPath), name,
+                    StringComparison.Ordinal))
+                    return AssetDatabase.LoadAssetAtPath<Sprite>(assetPath);
+            }
+            return null;
+        }
+
         [MenuItem("Tools/Mono Orbit/Cozy World/Build Theme from Imported Sprites")]
         public static void Build()
         {
@@ -25,7 +37,7 @@ namespace MonoOrbit.Presentation.Editor
             Sprite[] sprites = new Sprite[paths.Length];
             for (int i = 0; i < paths.Length; i++)
             {
-                sprites[i] = AssetDatabase.LoadAssetAtPath<Sprite>(Sprites + paths[i]);
+                sprites[i] = FindSprite(System.IO.Path.GetFileNameWithoutExtension(paths[i]));
                 if (sprites[i] == null)
                 {
                     Debug.LogError("Cozy World is not installed or not imported as Sprites: " +
@@ -34,9 +46,9 @@ namespace MonoOrbit.Presentation.Editor
                 }
             }
 
-            Sprite cell = AssetDatabase.LoadAssetAtPath<Sprite>(Sprites + "Board/cell_base.png");
-            Sprite panel = AssetDatabase.LoadAssetAtPath<Sprite>(Sprites + "UI/ui_panel_cream.png");
-            Sprite banner = AssetDatabase.LoadAssetAtPath<Sprite>(Sprites + "UI/ui_wood_banner.png");
+            Sprite cell = FindSprite("cell_base");
+            Sprite panel = FindSprite("ui_panel_cream");
+            Sprite banner = FindSprite("ui_wood_banner");
             if (cell == null || panel == null || banner == null)
             {
                 Debug.LogError("Cozy World: expected board/UI sprites not found. Check the asset paths in this script.");
