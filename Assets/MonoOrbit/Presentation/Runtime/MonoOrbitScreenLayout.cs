@@ -29,7 +29,7 @@ namespace MonoOrbit.Presentation
         public RectTransform InnerOrbit { get; }
         public RectTransform OuterOrbit { get; }
 
-        public MonoOrbitScreenLayout(Transform parent, MonoOrbitArt art,
+        public MonoOrbitScreenLayout(Transform parent, MonoOrbitArt art, CozyWorldTheme cozy,
             Action<CellPosition> clicked, Action<CellPosition, CellPosition> swiped,
             Action restart)
         {
@@ -50,7 +50,7 @@ namespace MonoOrbit.Presentation
             scaler.matchWidthOrHeight = 0.5f;
 
             var backdrop = Image(canvasObject.transform, "Night atmosphere",
-                art.Background, Color.white);
+                art.Background, cozy != null ? new Color(0.21f, 0.42f, 0.29f) : Color.white);
             Stretch(backdrop.rectTransform);
 
             OuterOrbit = Image(canvasObject.transform, "Outer orbit",
@@ -67,18 +67,19 @@ namespace MonoOrbit.Presentation
             var white = new Color(0.90f, 0.96f, 1f);
             var muted = new Color(0.53f, 0.68f, 0.81f);
 
-            Text(canvasObject.transform, "Brand", "M O N O  /  O R B I T",
+            Text(canvasObject.transform, "Brand", cozy != null ? "C O Z Y  W O R L D" : "M O N O  /  O R B I T",
                 57, white, TextAnchor.MiddleCenter,
                 new Vector2(0.5f, 1f), new Vector2(980f, 90f),
                 new Vector2(0f, -123f), FontStyle.Bold);
 
-            Text(canvasObject.transform, "Brand eyebrow", "ELEMENTAL DUEL • WEATHER SYSTEM",
+            Text(canvasObject.transform, "Brand eyebrow", cozy != null ? "MATCH 3 • COZY ELEMENTS" : "ELEMENTAL DUEL • WEATHER SYSTEM",
                 24, accent, TextAnchor.MiddleCenter,
                 new Vector2(0.5f, 1f), new Vector2(980f, 50f),
                 new Vector2(0f, -191f));
 
             var badge = Image(canvasObject.transform, "Mode badge",
-                art.Tile, new Color(0.55f, 0.85f, 0.98f, 0.58f));
+                cozy != null && cozy.Banner != null ? cozy.Banner : art.Tile,
+                cozy != null ? Color.white : new Color(0.55f, 0.85f, 0.98f, 0.58f));
             Anchor(badge.rectTransform, new Vector2(0.5f, 1f),
                 new Vector2(320f, 66f), new Vector2(0f, -254f));
 
@@ -87,7 +88,8 @@ namespace MonoOrbit.Presentation
                 new Vector2(320f, 54f), Vector2.zero, FontStyle.Bold);
 
             var scorePanel = Image(canvasObject.transform, "Score panel",
-                art.Tile, new Color(0.75f, 0.89f, 1f, 0.85f));
+                cozy != null && cozy.Panel != null ? cozy.Panel : art.Tile,
+                cozy != null ? Color.white : new Color(0.75f, 0.89f, 1f, 0.85f));
             Anchor(scorePanel.rectTransform, new Vector2(0.5f, 1f),
                 new Vector2(720f, 150f), new Vector2(0f, -373f));
 
@@ -139,7 +141,7 @@ namespace MonoOrbit.Presentation
                     cellObject.transform.SetParent(_gridRect, false);
 
                     var tile = cellObject.GetComponent<Image>();
-                    tile.sprite = art.Tile;
+                    tile.sprite = cozy != null && cozy.CellBase != null ? cozy.CellBase : art.Tile;
                     tile.color = Color.white;
                     tile.raycastTarget = true;
 
@@ -171,7 +173,8 @@ namespace MonoOrbit.Presentation
                 new Vector2(0f, 270f), FontStyle.Bold);
 
             var buttonPanel = Image(canvasObject.transform, "Restart button",
-                art.Tile, new Color(0.35f, 0.71f, 0.94f));
+                cozy != null && cozy.Panel != null ? cozy.Panel : art.Tile,
+                cozy != null ? Color.white : new Color(0.35f, 0.71f, 0.94f));
             Anchor(buttonPanel.rectTransform, new Vector2(0.5f, 0f),
                 new Vector2(620f, 98f), new Vector2(0f, 150f));
             var button = buttonPanel.gameObject.AddComponent<Button>();
@@ -189,7 +192,7 @@ namespace MonoOrbit.Presentation
                 new Vector2(600f, 86f), Vector2.zero, FontStyle.Bold);
 
             Text(canvasObject.transform, "Footer",
-                "MONO ORBIT  ·  MATCH ENGINE v1",
+                cozy != null ? "COZY WORLD  ·  TRAINING" : "MONO ORBIT  ·  MATCH ENGINE v1",
                 19, muted, TextAnchor.MiddleCenter,
                 new Vector2(0.5f, 0f), new Vector2(920f, 50f),
                 new Vector2(0f, 57f));
