@@ -12,6 +12,7 @@ namespace MonoOrbit.Presentation
     {
         private CellPosition _position;
         private Image _orb;
+        private float _baseScale = 1f;
         private Image _aura;
         private Action<CellPosition> _clicked;
         private Action<CellPosition, CellPosition> _swiped;
@@ -31,10 +32,13 @@ namespace MonoOrbit.Presentation
             _swiped = swiped;
         }
 
-        internal void SetElement(WeatherElement element, MonoOrbitArt art)
+        internal void SetElement(WeatherElement element, MonoOrbitArt art, CozyWorldTheme cozy)
         {
             _element = element;
-            _orb.sprite = art.Orb(element);
+            _orb.sprite = cozy != null && cozy.Get(element) != null ? cozy.Get(element) : art.Orb(element);
+            _baseScale = cozy != null ? cozy.GetScale(element) : 1f;
+            _orb.rectTransform.localScale = Vector3.one * _baseScale;
+            _aura.enabled = cozy == null;
             _orb.enabled = element != WeatherElement.Empty;
             var color = MonoOrbitArt.ElementColor(element);
             color.a = 0.42f;
@@ -56,7 +60,7 @@ namespace MonoOrbit.Presentation
 
         public void SetSelected(bool selected)
         {
-            _orb.rectTransform.localScale = Vector3.one * (selected ? 1.16f : 1f);
+            _orb.rectTransform.localScale = Vector3.one * _baseScale * (selected ? 1.12f : 1f);
             var aura = _aura.color;
             aura.a = selected ? 0.72f : 0.42f;
             _aura.color = aura;
@@ -64,7 +68,7 @@ namespace MonoOrbit.Presentation
 
         internal void SetVisualScale(float scale)
         {
-            _orb.rectTransform.localScale = Vector3.one * scale;
+            _orb.rectTransform.localScale = Vector3.one * _baseScale * scale;
         }
 
         public void OnPointerDown(PointerEventData eventData) { _dragged = false; }
