@@ -1,0 +1,1784 @@
+{
+  "schema_version": 1,
+  "package": "CozyWorld",
+  "version": "0.1.0",
+  "target_repository": "ILYAhero/Match3-Multiplayer",
+  "repository_inspected": false,
+  "uploaded_to_repository": false,
+  "unity_editor_tested": false,
+  "source_kind": "Five flattened user-approved concept images from this conversation",
+  "art_status": "Initial concept-derived extraction; not a complete production-ready UI kit",
+  "assets": [
+    {
+      "id": "tile_heart",
+      "label_ru": "Сердце",
+      "category": "Tiles",
+      "path": "Assets/CozyWorld/Art/Sprites/Tiles/tile_heart.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        40,
+        231,
+        155,
+        337
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "3a6ee22ba5d6547b96e9c46ddd37360b",
+      "sha256": "806b652d14a337498ff903b27fe732c67737f8ad6ffc76b5e8e912bb724a3d9a",
+      "visible_bounds_ltrb": [
+        17,
+        21,
+        111,
+        107
+      ]
+    },
+    {
+      "id": "tile_star",
+      "label_ru": "Звезда",
+      "category": "Tiles",
+      "path": "Assets/CozyWorld/Art/Sprites/Tiles/tile_star.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        171,
+        229,
+        285,
+        339
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "a44fe24e57ca5f4ea28a90d5ab63fdc5",
+      "sha256": "44853a74432f14dcd06dab6769762d2b6ed8579eb852bc293128a5ea9407a6fa",
+      "visible_bounds_ltrb": [
+        18,
+        18,
+        109,
+        109
+      ]
+    },
+    {
+      "id": "tile_drop",
+      "label_ru": "Капля",
+      "category": "Tiles",
+      "path": "Assets/CozyWorld/Art/Sprites/Tiles/tile_drop.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        303,
+        231,
+        406,
+        340
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "d9816ed9b79b5ed3ae4506a71eefb7e7",
+      "sha256": "0a6fc7705b4fcebff9c4fcbf0c12eb6b051e36aefa00ad2a939abf7abb17781c",
+      "visible_bounds_ltrb": [
+        24,
+        17,
+        104,
+        110
+      ]
+    },
+    {
+      "id": "tile_leaf",
+      "label_ru": "Лист",
+      "category": "Tiles",
+      "path": "Assets/CozyWorld/Art/Sprites/Tiles/tile_leaf.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        41,
+        386,
+        151,
+        496
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "bdfc8c6aba3b58f8b05b0aa18779f295",
+      "sha256": "26f2c619e39c976bef105e3010a92593a4ea1996eb3d6f83bd9c032c8a40b623",
+      "visible_bounds_ltrb": [
+        19,
+        18,
+        109,
+        110
+      ]
+    },
+    {
+      "id": "tile_flower",
+      "label_ru": "Цветок",
+      "category": "Tiles",
+      "path": "Assets/CozyWorld/Art/Sprites/Tiles/tile_flower.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        172,
+        385,
+        281,
+        497
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "331b6213046c5165977f08483ad7f0db",
+      "sha256": "8488df64015c691c6e98f07dbd1f7021c703547ea56d87cf0110fff4806efd85",
+      "visible_bounds_ltrb": [
+        17,
+        17,
+        110,
+        111
+      ]
+    },
+    {
+      "id": "tile_apple",
+      "label_ru": "Яблоко — альтернатива сердцу",
+      "category": "Alternates",
+      "path": "Assets/CozyWorld/Art/Sprites/Alternates/tile_apple.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        298,
+        383,
+        411,
+        497
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "fa70411e85f65211adef6d5b0ac1e588",
+      "sha256": "622428347109dc4adb237f45bc3243372f49eb31e0a932d20fc800ba8610d290",
+      "visible_bounds_ltrb": [
+        18,
+        16,
+        110,
+        112
+      ]
+    },
+    {
+      "id": "tile_orange_orb",
+      "label_ru": "Оранжевая сфера — вариант шестой фишки",
+      "category": "Alternates",
+      "path": "Assets/CozyWorld/Art/Sprites/Alternates/tile_orange_orb.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        1161,
+        799,
+        1244,
+        879
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "064b142526355dbda0c1235c9baf09f1",
+      "sha256": "533191e3951edfe967e73c5e143aaffaa15d62b22e7815b52ab1a0d955ad60d4",
+      "visible_bounds_ltrb": [
+        31,
+        31,
+        97,
+        96
+      ]
+    },
+    {
+      "id": "tile_crystal",
+      "label_ru": "Кристалл — альтернатива цветку",
+      "category": "Alternates",
+      "path": "Assets/CozyWorld/Art/Sprites/Alternates/tile_crystal.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        1332,
+        791,
+        1420,
+        886
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "2c58fc378aff52529a731df9fae2b4ef",
+      "sha256": "47327fedfc91bc628c0388d4b3e737cbc23bd99c655e8099932e5638accbbc36",
+      "visible_bounds_ltrb": [
+        34,
+        26,
+        93,
+        102
+      ]
+    },
+    {
+      "id": "special_rocket_horizontal",
+      "label_ru": "Горизонтальная ракета",
+      "category": "Specials",
+      "path": "Assets/CozyWorld/Art/Sprites/Specials/special_rocket_horizontal.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        990,
+        235,
+        1099,
+        321
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "3dda3f1af87a58d08e74593ecaf462f5",
+      "sha256": "9423a7874a2438dc43bb251fe693f7851f71084a288c5282e233d04996074a45",
+      "visible_bounds_ltrb": [
+        17,
+        36,
+        110,
+        92
+      ]
+    },
+    {
+      "id": "special_rocket_vertical",
+      "label_ru": "Вертикальная ракета",
+      "category": "Specials",
+      "path": "Assets/CozyWorld/Art/Sprites/Specials/special_rocket_vertical.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1113,
+        218,
+        1189,
+        326
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "1f21ba5f37b650e892061d744bbb1dc8",
+      "sha256": "1aec362df0bf2d89207640857a518c69b2e81f260e0c8b31f050ca0a06be0137",
+      "visible_bounds_ltrb": [
+        39,
+        17,
+        89,
+        111
+      ]
+    },
+    {
+      "id": "special_bomb",
+      "label_ru": "Бомба",
+      "category": "Specials",
+      "path": "Assets/CozyWorld/Art/Sprites/Specials/special_bomb.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1206,
+        216,
+        1303,
+        327
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "8b8358f31f065d34b4a58fbc8b3b8d6a",
+      "sha256": "56099be6f014c2ca57f1d3d5074dd90dbfcb61c943cb331c7ccbcc1f0f3102b1",
+      "visible_bounds_ltrb": [
+        21,
+        15,
+        106,
+        112
+      ]
+    },
+    {
+      "id": "special_rainbow",
+      "label_ru": "Радужная сфера",
+      "category": "Specials",
+      "path": "Assets/CozyWorld/Art/Sprites/Specials/special_rainbow.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1311,
+        231,
+        1407,
+        327
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "3765499398ce5a1db68efc673487e435",
+      "sha256": "aee936618bd375ebf334e9f7dee1c6db58e789058a499699db9cb1a823199b19",
+      "visible_bounds_ltrb": [
+        24,
+        23,
+        103,
+        105
+      ]
+    },
+    {
+      "id": "special_cross",
+      "label_ru": "Крестообразный взрыв",
+      "category": "Specials",
+      "path": "Assets/CozyWorld/Art/Sprites/Specials/special_cross.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1046,
+        409,
+        1168,
+        522
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "a6df3f655cc3518fb6938d00db94bfeb",
+      "sha256": "2f3ca49b5881524877073c35fe34931958596c7c52c5b27e9b2c5fd4244a705f",
+      "visible_bounds_ltrb": [
+        16,
+        15,
+        111,
+        113
+      ]
+    },
+    {
+      "id": "special_target",
+      "label_ru": "Прицельная ракета",
+      "category": "Specials",
+      "path": "Assets/CozyWorld/Art/Sprites/Specials/special_target.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1238,
+        415,
+        1369,
+        519
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 0.9454545454545454,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "4024934eed51535d90017ddecb492f71",
+      "sha256": "c054e9f6aec8642bcbdecc7f3ad17cf1a3e9a86a8bde1d6eeddc25c232bddedc",
+      "visible_bounds_ltrb": [
+        12,
+        23,
+        116,
+        105
+      ]
+    },
+    {
+      "id": "booster_hammer_button",
+      "label_ru": "Молоток на кнопке",
+      "category": "Boosters",
+      "path": "Assets/CozyWorld/Art/Sprites/Boosters/booster_hammer_button.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        38,
+        677,
+        161,
+        787
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 0.9904761904761905,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Blue button backing is baked into this icon.",
+      "guid": "315c55f0a67d523098c341411125d535",
+      "sha256": "120554caa4db4b60b7ca4b66a091019d5d82a193307382d162f5aaf74f209953",
+      "visible_bounds_ltrb": [
+        12,
+        14,
+        116,
+        113
+      ]
+    },
+    {
+      "id": "booster_swap_button",
+      "label_ru": "Обмен на кнопке",
+      "category": "Boosters",
+      "path": "Assets/CozyWorld/Art/Sprites/Boosters/booster_swap_button.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        184,
+        677,
+        304,
+        787
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Blue button backing is baked into this icon.",
+      "guid": "1cae19bf3dab5347868d79d05edbaa12",
+      "sha256": "54fda7603818bb713639592e209b52914dcdf0ccd6d1ce226a0e1f39b469d136",
+      "visible_bounds_ltrb": [
+        12,
+        15,
+        115,
+        113
+      ]
+    },
+    {
+      "id": "booster_shuffle_button",
+      "label_ru": "Перемешать на кнопке",
+      "category": "Boosters",
+      "path": "Assets/CozyWorld/Art/Sprites/Boosters/booster_shuffle_button.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        324,
+        678,
+        447,
+        787
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 0.9904761904761905,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Blue button backing is baked into this icon.",
+      "guid": "12843db1e8a95e31b8145bd84cd725b8",
+      "sha256": "072498740c020cf78531fc413fee7f1ea0e3e7b47f94c2ddf1eed5b3189a5b9d",
+      "visible_bounds_ltrb": [
+        12,
+        15,
+        116,
+        113
+      ]
+    },
+    {
+      "id": "booster_target_button",
+      "label_ru": "Прицел на кнопке",
+      "category": "Boosters",
+      "path": "Assets/CozyWorld/Art/Sprites/Boosters/booster_target_button.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        470,
+        678,
+        594,
+        787
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 0.9904761904761905,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Blue button backing is baked into this icon.",
+      "guid": "10b207578941526cb6cd6fcc4b1fd659",
+      "sha256": "263d120b114f8c9e3aaa0b4cdefddb937331ad7f7ff019a1978ad58c74976ed0",
+      "visible_bounds_ltrb": [
+        12,
+        15,
+        116,
+        113
+      ]
+    },
+    {
+      "id": "obstacle_ice_01",
+      "label_ru": "Лёд: стадия 1",
+      "category": "Obstacles",
+      "path": "Assets/CozyWorld/Art/Sprites/Obstacles/obstacle_ice_01.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        637,
+        669,
+        744,
+        770
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Opaque ice icon; not a semitransparent frozen-tile overlay.",
+      "guid": "fd1217e1bb1f521c99d2ec51ed2d868c",
+      "sha256": "8b1638987dbcc6943ac223826c93c697cba19213cdf0c7da5147c111861f5e2a",
+      "visible_bounds_ltrb": [
+        20,
+        21,
+        108,
+        107
+      ]
+    },
+    {
+      "id": "obstacle_ice_02",
+      "label_ru": "Лёд: стадия 2",
+      "category": "Obstacles",
+      "path": "Assets/CozyWorld/Art/Sprites/Obstacles/obstacle_ice_02.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        767,
+        667,
+        882,
+        770
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Opaque ice icon; not a semitransparent frozen-tile overlay.",
+      "guid": "effdd4e2a78a523e958355694f45b6a8",
+      "sha256": "a1bd1220d4f7436c6d89c9a20a63dda0ad75c5aa5d453819855499994ec3e1fc",
+      "visible_bounds_ltrb": [
+        17,
+        20,
+        111,
+        108
+      ]
+    },
+    {
+      "id": "obstacle_chained_crate",
+      "label_ru": "Ящик с цепями",
+      "category": "Obstacles",
+      "path": "Assets/CozyWorld/Art/Sprites/Obstacles/obstacle_chained_crate.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        901,
+        667,
+        1006,
+        771
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "c63763b00c545f68b47f8fd88272009c",
+      "sha256": "7c3afacc3ddd5ca6d9df8a6ccaec31dda04adcc53652258bb44eea46cda4b57a",
+      "visible_bounds_ltrb": [
+        19,
+        20,
+        108,
+        108
+      ]
+    },
+    {
+      "id": "obstacle_crate",
+      "label_ru": "Деревянный ящик",
+      "category": "Obstacles",
+      "path": "Assets/CozyWorld/Art/Sprites/Obstacles/obstacle_crate.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1034,
+        665,
+        1146,
+        771
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "dff9a82fafeb5d96b38d8d0778726139",
+      "sha256": "145332a65af2df8c309c964a84e9ff60b4c0d1248525c0c82098f2783532c201",
+      "visible_bounds_ltrb": [
+        19,
+        19,
+        108,
+        109
+      ]
+    },
+    {
+      "id": "obstacle_bush",
+      "label_ru": "Куст",
+      "category": "Obstacles",
+      "path": "Assets/CozyWorld/Art/Sprites/Obstacles/obstacle_bush.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1160,
+        658,
+        1282,
+        770
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "814f629a04a7589da21a17958d75f04d",
+      "sha256": "c6c4ad80466e0b6bfe36181dcaaca0dbc12cd0bf952b006ea4703e320b7ffa20",
+      "visible_bounds_ltrb": [
+        16,
+        15,
+        111,
+        112
+      ]
+    },
+    {
+      "id": "obstacle_honey",
+      "label_ru": "Мёд",
+      "category": "Obstacles",
+      "path": "Assets/CozyWorld/Art/Sprites/Obstacles/obstacle_honey.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        1306,
+        665,
+        1426,
+        771
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "5fac9c2d56fe5ef58decdcda2169467c",
+      "sha256": "689aaae35143bd5d949985aa286b1f7ca0f5454680dfc8d9d2f00bed19cf64c4",
+      "visible_bounds_ltrb": [
+        17,
+        17,
+        111,
+        110
+      ]
+    },
+    {
+      "id": "ui_wood_banner",
+      "label_ru": "Пустая деревянная плашка",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_wood_banner.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        25,
+        709,
+        246,
+        784
+      ],
+      "pixel_size": [
+        221,
+        78
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        38,
+        26,
+        42,
+        28
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "fa03cf65839458b29fe87a34c4284a0d",
+      "sha256": "9aa00e92308ffd58406219169c4a26740c48c3f1a28b2b27b7e5dbfd675147f9",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        215,
+        72
+      ]
+    },
+    {
+      "id": "ui_panel_cream",
+      "label_ru": "Пустая панель",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_panel_cream.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        463,
+        817,
+        640,
+        910
+      ],
+      "pixel_size": [
+        170,
+        94
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        36,
+        32,
+        36,
+        32
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "963ed87e4b2a56989594254c6e1ac42e",
+      "sha256": "ee681661099d34422ce756bc9ac12f3fdae70cc08b3a7319b898735d6c5ded50",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        164,
+        88
+      ]
+    },
+    {
+      "id": "ui_toggle_on",
+      "label_ru": "Переключатель: включён",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_toggle_on.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        43,
+        825,
+        146,
+        880
+      ],
+      "pixel_size": [
+        103,
+        61
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "98f332aa1cf652249d08d211dacf9bf7",
+      "sha256": "a7411f60e610102192f578074013adc8ffe9a4aa435c559fce60390d3e3e3a93",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        97,
+        55
+      ]
+    },
+    {
+      "id": "ui_gift_button",
+      "label_ru": "Подарок на кнопке",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_gift_button.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        35,
+        918,
+        136,
+        1025
+      ],
+      "pixel_size": [
+        89,
+        91
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "9713a7afca545db39082ee96ba609402",
+      "sha256": "2a200d3fe6a897a5677d2e379eb7e6331d5fb7ddc45b4e948f7540e996fdf749",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        83,
+        85
+      ]
+    },
+    {
+      "id": "ui_fire_slot",
+      "label_ru": "Огонь в слоте",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_fire_slot.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        164,
+        921,
+        270,
+        1028
+      ],
+      "pixel_size": [
+        102,
+        102
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "04e0ef3c70685f3db5d53af98bd1ce03",
+      "sha256": "a7a67aabb948bb35e2d529acd92a9d7ebfc1b5a4e5746a52fc3024ba28fa2448",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        96,
+        96
+      ]
+    },
+    {
+      "id": "ui_locked_slot",
+      "label_ru": "Закрытый слот",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_locked_slot.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        282,
+        920,
+        384,
+        1027
+      ],
+      "pixel_size": [
+        92,
+        94
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "507faac2176450eb9d8effa77e97cd5e",
+      "sha256": "70a3d8a375351575a5d633031a1115b050eec7ca28907786d8f79f87c383f5fb",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        86,
+        88
+      ]
+    },
+    {
+      "id": "ui_add_slot",
+      "label_ru": "Слот с плюсом",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_add_slot.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        399,
+        921,
+        501,
+        1027
+      ],
+      "pixel_size": [
+        95,
+        93
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "05d3bb89e1ed500698344691a9be9bd5",
+      "sha256": "e5f0ace182e7b144b71a9cd887dfb569d5e70e3172c2345fa21f111ce907d633",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        89,
+        87
+      ]
+    },
+    {
+      "id": "ui_pause",
+      "label_ru": "Меню матча: значок паузы",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_pause.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1202,
+        188,
+        1276,
+        249
+      ],
+      "pixel_size": [
+        71,
+        68
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Visual icon only; opening a menu must not pause an online match.",
+      "guid": "aa8bbb06a8725e44ba5fc0b08598feb4",
+      "sha256": "1c495b0f90211ec38d67f3a477dd88156ea4e2212ec487e479bc5b4f829cc168",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        65,
+        62
+      ]
+    },
+    {
+      "id": "ui_settings",
+      "label_ru": "Настройки",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_settings.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1292,
+        186,
+        1374,
+        250
+      ],
+      "pixel_size": [
+        70,
+        69
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "ae8704f719815f2495bdc2f08f3737e5",
+      "sha256": "acc9af690f0f08381429f90587d7be7b2d36081ff2f076ec14902db514f9bea0",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        64,
+        63
+      ]
+    },
+    {
+      "id": "ui_sound_on",
+      "label_ru": "Звук включён",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_sound_on.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1201,
+        315,
+        1279,
+        382
+      ],
+      "pixel_size": [
+        70,
+        71
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "5e2b74ed5b7852f18d248d1c13966162",
+      "sha256": "b4240de6da8c1b57ada3a5f26e93b869cbf89e488fa82e876b9b3383e692147f",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        64,
+        65
+      ]
+    },
+    {
+      "id": "ui_sound_off",
+      "label_ru": "Звук выключен",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_sound_off.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1293,
+        315,
+        1373,
+        382
+      ],
+      "pixel_size": [
+        62,
+        63
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "f06b6d513e755608aeb8b34e9215571a",
+      "sha256": "69a17aa1c22f726617e14cc91761e42d820c9cce4c693bdc36772aee48c165dd",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        56,
+        57
+      ]
+    },
+    {
+      "id": "ui_hint",
+      "label_ru": "Подсказка",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_hint.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1150,
+        630,
+        1227,
+        699
+      ],
+      "pixel_size": [
+        72,
+        71
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint.",
+      "guid": "4f401c06a3d55c9894303b46a06582c6",
+      "sha256": "ddeb700a5a63d3c3f6e552ac20ca1ccf6b5d64c1b4afcdc3dbe6b482463d9d60",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        66,
+        65
+      ]
+    },
+    {
+      "id": "network_good",
+      "label_ru": "Хорошее соединение",
+      "category": "Network",
+      "path": "Assets/CozyWorld/Art/Sprites/Network/network_good.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1172,
+        469,
+        1213,
+        504
+      ],
+      "pixel_size": [
+        64,
+        64
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Small native source; review readability on device.",
+      "guid": "72a36f10fc85572f9b3b6ffd3ea51492",
+      "sha256": "743114531edb73acf260a97c04314b971d86521b7043a2415893262e8ecdf19f",
+      "visible_bounds_ltrb": [
+        18,
+        19,
+        45,
+        44
+      ]
+    },
+    {
+      "id": "network_slow",
+      "label_ru": "Задержка соединения",
+      "category": "Network",
+      "path": "Assets/CozyWorld/Art/Sprites/Network/network_slow.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1264,
+        469,
+        1309,
+        504
+      ],
+      "pixel_size": [
+        64,
+        64
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Small native source; review readability on device.",
+      "guid": "9dfd1b8fc720553eb1555e8737ae6e9f",
+      "sha256": "d73a35a39473b843158f6c4fa36b4dfd90ba911afb362b292bf8fb1e97bfd89b",
+      "visible_bounds_ltrb": [
+        18,
+        19,
+        45,
+        44
+      ]
+    },
+    {
+      "id": "network_warning",
+      "label_ru": "Проблема соединения",
+      "category": "Network",
+      "path": "Assets/CozyWorld/Art/Sprites/Network/network_warning.png",
+      "source": "cozy_world_match_hud_infographic.png",
+      "source_crop_ltrb": [
+        1358,
+        465,
+        1420,
+        504
+      ],
+      "pixel_size": [
+        64,
+        64
+      ],
+      "scale_from_cutout": 0.8333333333333334,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "concept_extraction",
+      "notes": "Native-resolution concept extraction, alpha silhouette; no high-resolution repaint. Small native source; review readability on device.",
+      "guid": "163956d93f4e5910a7984b0758f6ff8b",
+      "sha256": "bb0132141b4c80c206643b3f8c96040ff8cf8b9c7a9584cb50a4db7ba7976e38",
+      "visible_bounds_ltrb": [
+        12,
+        20,
+        52,
+        44
+      ]
+    },
+    {
+      "id": "ui_button_blue",
+      "label_ru": "Синяя кнопка без текста",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_button_blue.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        255,
+        711,
+        446,
+        777
+      ],
+      "pixel_size": [
+        185,
+        66
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        37,
+        22,
+        37,
+        22
+      ],
+      "status": "reconstructed_from_reference",
+      "notes": "Baked label removed by interpolating between clean vertical strips. Render localized text separately. Check nine-slice at actual screen size.",
+      "guid": "b5417a99bdf259faad78754748ad5ab7",
+      "sha256": "e6a33cec3aba4ab99abaaba4c0604bb419bce222fc387e41afcb072851dbbf81",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        179,
+        60
+      ]
+    },
+    {
+      "id": "ui_button_orange",
+      "label_ru": "Оранжевая кнопка без текста",
+      "category": "UI",
+      "path": "Assets/CozyWorld/Art/Sprites/UI/ui_button_orange.png",
+      "source": "cozy_world_match_3_ui_style_guide.png",
+      "source_crop_ltrb": [
+        451,
+        711,
+        641,
+        777
+      ],
+      "pixel_size": [
+        186,
+        66
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        37,
+        22,
+        37,
+        22
+      ],
+      "status": "reconstructed_from_reference",
+      "notes": "Baked label removed by interpolating between clean vertical strips. Render localized text separately. Check nine-slice at actual screen size.",
+      "guid": "df602496a92257ef8bb2051194841638",
+      "sha256": "66bb4070259269010e85b9a1fd5303e747ffa8f7113a868b4abcf8e4716a6c14",
+      "visible_bounds_ltrb": [
+        6,
+        6,
+        180,
+        60
+      ]
+    },
+    {
+      "id": "cell_base",
+      "label_ru": "Пустая клетка",
+      "category": "Cells",
+      "path": "Assets/CozyWorld/Art/Sprites/Cells/cell_base.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        333,
+        926,
+        411,
+        1001
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "reconstructed_from_reference",
+      "notes": "Sample heart removed; interior rebuilt with a sampled brown fill. Use an independent tile sprite above this cell.",
+      "guid": "50b2ed19782c5ca5bdbd3eafbf332b6a",
+      "sha256": "ee3c29fb32ff6f8f3c084c514fe2f780d235c17f600e072ff01cbe754c3dc83f",
+      "visible_bounds_ltrb": [
+        27,
+        31,
+        100,
+        96
+      ]
+    },
+    {
+      "id": "cell_selection_blue",
+      "label_ru": "Выделение клетки: синий контур",
+      "category": "Cells",
+      "path": "Assets/CozyWorld/Art/Sprites/Cells/cell_selection_blue.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        611,
+        917,
+        707,
+        1004
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "reconstructed_from_reference",
+      "notes": "Frame-only overlay cut with a hand-aligned rounded alpha mask. Transparent center removes the reference tile. Normalize visible bounds when layering; padded texture canvases differ.",
+      "guid": "a11816752b215ffaae9b5995f260e21d",
+      "sha256": "314f59c5d4cefdd623cdb50bf9a1dd7d5fe3f13aca494317feb122deb6f2d389",
+      "visible_bounds_ltrb": [
+        19,
+        21,
+        108,
+        106
+      ]
+    },
+    {
+      "id": "cell_selection_gold",
+      "label_ru": "Подсветка клетки: золотой контур",
+      "category": "Cells",
+      "path": "Assets/CozyWorld/Art/Sprites/Cells/cell_selection_gold.png",
+      "source": "match_3_game_board_guide.png",
+      "source_crop_ltrb": [
+        473,
+        921,
+        559,
+        1004
+      ],
+      "pixel_size": [
+        128,
+        128
+      ],
+      "scale_from_cutout": 1.0,
+      "pixels_per_unit": 100,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border_lbrt": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "reconstructed_from_reference",
+      "notes": "Frame-only overlay cut with a hand-aligned rounded alpha mask. Transparent center removes the reference tile. Normalize visible bounds when layering; padded texture canvases differ.",
+      "guid": "dff9d7f05c4a5992b65d1962a04213b1",
+      "sha256": "f52c6736cecf1a8934be168bbb6ec675e25a7ada948eb88a87409a0feb4360af",
+      "visible_bounds_ltrb": [
+        23,
+        23,
+        105,
+        104
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "cozy_world_match_3_ui_style_guide.png",
+      "sha256": "10f1e7c398e5bd2a3a747c5f1588d03542e0b204928d9320217cbc16cda27af7",
+      "pixel_size": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "file": "match_3_game_board_guide.png",
+      "sha256": "f3532cb280bf5549ff7c6be299134f76ba877f8d34a2c0c1a2f6a2a1e53ab322",
+      "pixel_size": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "file": "cozy_world_match_hud_infographic.png",
+      "sha256": "79e48d171ef674487a55c2d6109d84f6af1d50eba36fbc20de5eb29e982767cd",
+      "pixel_size": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "file": "cozy_world_match_3_ui_showcase.png",
+      "sha256": "437ed5d573d187eaaaf6f4dade9a21408ef36c61028df6da50f4ba069a2156c5",
+      "pixel_size": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "file": "cozy_match_3_ui_popup_guide.png",
+      "sha256": "28ddb3a3160e7eb95b0de4d8ee8434bda112750149421dec319989dd5ae8570f",
+      "pixel_size": [
+        1448,
+        1086
+      ]
+    }
+  ],
+  "unity_import_settings": {
+    "texture_type": "Sprite (2D and UI)",
+    "sprite_mode": "Single",
+    "pixels_per_unit": 100,
+    "mesh_type": "FullRect",
+    "alpha_source": "FromInput",
+    "alpha_is_transparency": true,
+    "mipmaps": false,
+    "filter": "Bilinear",
+    "wrap": "Clamp",
+    "read_write": false,
+    "compression": "Uncompressed for visual review"
+  }
+}
