@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "Proposed design tokens based on the approved concept, not a measured production palette",
+  "colors": {
+    "cream": "#FFF5E6",
+    "wood": "#8B5E3C",
+    "text": "#563421",
+    "blue": "#32ADFA",
+    "green": "#56C271",
+    "gold": "#FFC83D",
+    "red": "#FF5B5B",
+    "violet": "#B883FF",
+    "board": "#6F5039"
+  },
+  "typography": {
+    "font_files_included": false,
+    "headings": "Use the project font with Cyrillic support, rounded semibold/bold",
+    "body": "Use the project UI font with Cyrillic support",
+    "text_is_separate_from_sprites": true
+  },
+  "layout": {
+    "board_columns": 9,
+    "board_rows": 9,
+    "turn_duration_seconds": 5,
+    "online_menu_pauses_match": false
+  },
+  "notes": [
+    "Design tokens are not gameplay implementation.",
+    "Keep red apple and red heart as alternatives unless rules deliberately distinguish their shapes.",
+    "Do not assume the coin shop, lives, or rewards depicted in references are approved game features."
+  ]
+}

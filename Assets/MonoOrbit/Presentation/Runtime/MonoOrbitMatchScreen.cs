@@ -15,6 +15,7 @@ namespace MonoOrbit.Presentation
     {
         private PracticeSession _session;
         private MonoOrbitArt _art;
+        private CozyWorldTheme _cozy;
         private MonoOrbitScreenLayout _layout;
         private CellPosition? _selected;
         private bool _busy;
@@ -23,7 +24,8 @@ namespace MonoOrbit.Presentation
         {
             _session = new PracticeSession(unchecked((uint)System.Environment.TickCount));
             _art = new MonoOrbitArt();
-            _layout = new MonoOrbitScreenLayout(transform, _art,
+            _cozy = Resources.Load<CozyWorldTheme>("CozyWorldTheme");
+            _layout = new MonoOrbitScreenLayout(transform, _art, _cozy,
                 HandleClick, HandleSwipe, Restart);
 
             Canvas.ForceUpdateCanvases();
@@ -164,7 +166,7 @@ namespace MonoOrbit.Presentation
             for (var y = 0; y < board.Height; y++)
                 for (var x = 0; x < board.Width; x++)
                     _layout.Cells[x, y].SetElement(
-                        board.Get(new CellPosition(x, y)), _art);
+                        board.Get(new CellPosition(x, y)), _art, _cozy);
         }
 
         private void UpdateScore()
